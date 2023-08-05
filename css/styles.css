@@ -216,11 +216,6 @@ body {
 .shows-section-secont {
     padding-bottom: 108px;
 }
-
-.genres {}
-
-.container {}
-
 .genres__title {
     font-family: 'Mulish';
     font-size: 28px;
@@ -314,4 +309,31 @@ body {
     border-radius: 50px;
     background: linear-gradient(352deg, #26FFF2 0%, #326CFF 100%);
     transform: rotate(180deg);
+}
+.actors-section {
+    padding: 0 80px;
+}
+.actors-title {
+color: #FFF;
+font-size: 28px;
+line-height: 0.7;
+margin-top: 78px;
+margin-bottom: 45px;
+}
+.actors-list {
+    gap: 50px;
+}
+.actors-item {
+    margin-bottom: 70px;
+    border-radius: 50px;
+}
+.actors-link {
+color: #FFF;
+text-align: center;
+font-size: 18px;
+line-height: 1.11;
+}
+.span-one {
+    background-image: url(./img/1.jpg);
+    border-radius: 50px;
 }
