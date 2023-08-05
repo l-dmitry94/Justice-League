@@ -315,3 +315,14 @@ body {
     background: linear-gradient(352deg, #26FFF2 0%, #326CFF 100%);
     transform: rotate(180deg);
 }
+.actors-title {
+color: #FFF;
+font-size: 28px;
+line-height: 0.7;
+margin-top: 78px;
+margin-bottom: 45px;
+}
+.actors-list {
+    display: flex;
+    gap: 50px;
+}
