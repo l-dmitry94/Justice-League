@@ -6,69 +6,69 @@ h3,
 a,
 button,
 img {
-    padding: 0;
-    margin: 0;
-    display: block;
-    border: none;
-    list-style: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  border: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
-    font-family: "Mulish", sans-serif;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
 }
 
 .container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 80px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 80px;
 }
 
 .header {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 15px 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 0;
 }
 
 .header__container {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .header__logo {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .header__logo-letter {
-    width: 70px;
-    height: 70px;
-    border: 4px solid transparent;
-    background: linear-gradient(#000, #000) padding-box,
-        linear-gradient(to right, #326cff 0%, #26fff2 100%) border-box;
-    border-radius: 14px;
-    margin-right: 15px;
+  width: 70px;
+  height: 70px;
+  border: 4px solid transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #326cff 0%, #26fff2 100%) border-box;
+  border-radius: 14px;
+  margin-right: 15px;
 }
 
 .header__menu {
-    gap: 54px;
+  gap: 54px;
 }
 
 .header__menu-link {
-    color: #fff;
-    font-family: "Mulish", sans-serif;
-    font-size: 16px;
-    line-height: 1.25;
-    opacity: 0.5;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  opacity: 0.5;
 }
 
 /* .header__menu-link:hover,
@@ -80,238 +80,335 @@ body {
 
 .header__menu-link:is(:hover, :focus),
 .active {
-    font-weight: 800;
-    opacity: 1;
+  font-weight: 800;
+  opacity: 1;
 }
 
 .header__icons {
-    gap: 75px;
+  gap: 75px;
 }
 
 /** section hero */
 
 .hero-title {
-    color: #fff;
-    font-family: "Marcellus", sans-serif;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 70px;
-    /* 87.5% */
-    max-width: 532px;
-    margin-bottom: 40px;
+  color: #fff;
+  font-family: "Marcellus", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  /* 87.5% */
+  max-width: 532px;
+  margin-bottom: 40px;
 }
 
 .hero-list {
-    justify-content: flex-start;
-    margin-bottom: 32px;
+  justify-content: flex-start;
+  margin-bottom: 32px;
 }
 
 .hero-item:not(:nth-last-child(-n + 2)) {
-    margin-right: 18px;
+  margin-right: 18px;
 }
 
 .hero-item:last-child {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .hero-item:nth-child(2) {
-    border-radius: 50px;
-    border: 1.5px solid transparent;
-    background: linear-gradient(#000, #000) padding-box,
-        linear-gradient(to right, #326cff 0%, #26fff2 100%) border-box;
-    padding: 6px 15px;
+  border-radius: 50px;
+  border: 1.5px solid transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to right, #326cff 0%, #26fff2 100%) border-box;
+  padding: 6px 15px;
 }
 
 .hero-text {
-    color: #c2c2c2;
-    font-size: 18px;
-    line-height: 28px;
-    /* 155.556% */
-    font-weight: 400;
-    margin-bottom: 35px;
-    max-width: 508px;
+  color: #c2c2c2;
+  font-size: 18px;
+  line-height: 28px;
+  /* 155.556% */
+  font-weight: 400;
+  margin-bottom: 35px;
+  max-width: 508px;
 }
 
 .hero-btn-list {
-    gap: 30px;
-    justify-content: flex-start;
+  gap: 30px;
+  justify-content: flex-start;
 }
 
 .hero-button {
-    color: #fff;
-    font-family: "Mulish", sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 20px;
-    /* 125% */
-    background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
-    filter: drop-shadow(0px 4px 50px rgba(50, 108, 255, 0.5));
-    padding: 15px 30px;
-    border-radius: 50px;
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  /* 125% */
+  background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
+  filter: drop-shadow(0px 4px 50px rgba(50, 108, 255, 0.5));
+  padding: 15px 30px;
+  border-radius: 50px;
 }
 
 .hero-button-color {
-    color: #323232;
-    background-color: #fff;
-    font-family: "Mulish", sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 20px;
-    padding: 15px 30px;
-    border-radius: 50px;
+  color: #323232;
+  background-color: #fff;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 15px 30px;
+  border-radius: 50px;
 }
 
 /* Program-section */
 .shows-title {
-    line-height: 0.71;
-    font-size: 28px;
-    margin-bottom: 48px;
+  line-height: 0.71;
+  font-size: 28px;
+  margin-bottom: 48px;
 }
 
 .shows-list {
-    gap: 40px;
+  gap: 40px;
 }
 
 .shows-item {
-    flex-basis: calc((100% - 200px) / 6);
+  flex-basis: calc((100% - 200px) / 6);
 }
 
 .shows {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .shows-link {
-    border-radius: 20px;
-    overflow: hidden;
-    background: #c4c4c4;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #c4c4c4;
 }
 
 .shows-link:hover,
 .shows-link:focus {
-    background: lightgray 50% / cover no-repeat;
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  background: lightgray 50% / cover no-repeat;
+  filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
 }
 
 .shows-img {
-    width: 100%;
+  width: 100%;
 }
 
 .shows-list-padding {
-    padding-bottom: 54px;
+  padding-bottom: 54px;
 }
 
 .try-button {
-    background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
-    filter: drop-shadow(0px 4px 50px rgba(50, 108, 255, 0.5));
-    padding: 15px 34px;
-    border-radius: 100px;
-    color: #fff;
-    font-family: "Mulish";
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 1.25;
+  background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
+  filter: drop-shadow(0px 4px 50px rgba(50, 108, 255, 0.5));
+  padding: 15px 34px;
+  border-radius: 100px;
+  color: #fff;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
 }
 
 .shows-section-secont {
-    padding-bottom: 108px;
+  padding-bottom: 108px;
 }
 
-.genres {}
+.genres {
+  padding-bottom: 78px;
+}
 
-.container {}
+.container {
+}
 
 .genres__title {
-    font-family: 'Mulish';
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 0.71;
-    margin-bottom: 48px;
+  font-family: "Mulish";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.71;
+  margin-bottom: 48px;
 }
 
 .genres__list {
-    flex-wrap: wrap;
-    gap: 27px;
+  flex-wrap: wrap;
+  gap: 27px;
 }
 
 .genres__list-item {
-    flex-basis: calc((100% - 81px) / 4);
+  flex-basis: calc((100% - 81px) / 4);
 }
 
 .genres__list-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    color: #FFF;
-    font-family: 'Mulish';
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 0.71;
-    border-radius: 20px;
-    padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  font-family: "Mulish";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 0.71;
+  border-radius: 20px;
+  padding: 45px 0;
 }
 
 .genres-1 {
-    background: linear-gradient(136deg, #FD093F 0%, #F383F1 100%);
+  background: linear-gradient(136deg, #fd093f 0%, #f383f1 100%);
 }
 
 .genres-2 {
-    background: linear-gradient(143deg, #0FFFDA 0%, #3CDB77 100%);
+  background: linear-gradient(143deg, #0fffda 0%, #3cdb77 100%);
 }
 
 .genres-3 {
-    background: linear-gradient(136deg, #B936FF 0%, #57DEDA 100%);
+  background: linear-gradient(136deg, #b936ff 0%, #57deda 100%);
 }
 
 .genres-4 {
-    background: linear-gradient(136deg, #FD093F 0%, #FB1378 0.01%, #FCCB1A 100%);
+  background: linear-gradient(136deg, #fd093f 0%, #fb1378 0.01%, #fccb1a 100%);
 }
 
 .genres-5 {
-    background: linear-gradient(136deg, #FF6472 0%, #FDA75D 100%);
+  background: linear-gradient(136deg, #ff6472 0%, #fda75d 100%);
 }
 
 .genres-6 {
-    background: linear-gradient(137deg, #13547A 0%, #80D0C7 100%);
+  background: linear-gradient(137deg, #13547a 0%, #80d0c7 100%);
 }
 
 .genres-7 {
-    background: linear-gradient(137deg, #FFF77B 0%, #FFBF42 100%);
+  background: linear-gradient(137deg, #fff77b 0%, #ffbf42 100%);
 }
 
 .genres-8 {
-    background: linear-gradient(136deg, #1FA2FF 0%, #1FA2FF 0.01%, #1F535C 97.40%);
+  background: linear-gradient(136deg, #1fa2ff 0%, #1fa2ff 0.01%, #1f535c 97.4%);
 }
 
 .genres__list-link:hover .genres__list-item-icon,
 .genres__list-link:focus .genres__list-item-icon {
-    fill: #000;
+  fill: #000;
 }
 
 .genres__list-item-icon {
-    fill: #fff;
-    transition: fill .3s ease-in-out;
+  fill: #fff;
+  transition: fill 0.3s ease-in-out;
 }
 
 .icon-rocket {
-    transform: rotate(46.5deg);
+  transform: rotate(46.5deg);
 }
 
 .genres__title {
-    display: flex;
-    align-items: center;
-    gap: 11px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
 }
 
 .genres__title::before {
-    content: '';
-    display: inline-block;
-    width: 8px;
-    height: 35px;
-    border-radius: 50px;
-    background: linear-gradient(352deg, #26FFF2 0%, #326CFF 100%);
-    transform: rotate(180deg);
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 35px;
+  border-radius: 50px;
+  background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
+  transform: rotate(180deg);
+}
+
+/* Popular Actors section by YevTor */
+
+.actors__title {
+  font-family: "Mulish";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.71;
+  margin-bottom: 45px;
+
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.actors__title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 35px;
+  border-radius: 50px;
+  background: linear-gradient(352deg, #26fff2 0%, #326cff 100%);
+  transform: rotate(180deg);
+}
+
+.actors__list {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 59px;
+}
+.actors__list__item {
+  flex-basis: calc((100% - 200px) / 6);
+}
+
+.circle {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.actors__list__item__text {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  margin-bottom: 97px;
+}
+
+/* Big Buck Bunny section by YevTor */
+
+.gradient__background {
+  width: 1440px;
+  height: 341px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: linear-gradient(47deg, #0d1a73 29.09%, #000 70.41%);
+  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.gradient__background__icon {
+  width: 294px;
+  height: 148px;
+  position: absolute;
+  top: 71px;
+  left: 943px;
+}
+
+.gradient__background__icon__text {}
+
+.text-container {
+  position: absolute;
+  top:249px;
+  left: 861px;
+
+  color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-transform: capitalize;
 }
