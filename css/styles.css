@@ -448,6 +448,68 @@ line-height: 20px;
 text-transform: capitalize;
 }
 
+
+/* Forms */
+.form__title{
+  color: var(--color-4, #1E2E36);
+text-align: center;
+
+/* 36 sp • H3 Headline */
+font-family: Proxima Nova;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 45px */
+}
+.container__form{
+  margin: 0 auto;
+  width: 513px;
+height: 457px;
+flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+text-align: center;
+background-color: #3d99e4;
+padding: 50px;
+gap: 30px;
+}
+
+.container__form::before{
+  border-radius: 3px 0px 0px 3px;
+background: var(--color-3, #44C697);
+}
+
+.inp__form{
+  border-radius: 5px;
+border: 1px solid var(--color-4, #1E2E36);
+background: var(--greyscale-000, #FFF);
+width: 100%;
+height: 51px;
+margin-bottom: 15px;
+padding: 15px;
+}
+.inp__form::placeholder{
+  color: var(--color-4, #1E2E36);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 125%; /* 22.5px */
+  opacity: 0.6;
+}
+.inp__form:hover,
+.inp__form:focus{
+  border: 1px solid var(--color-4, #1E2E36);
+}
+
+.btn-form{
+  width: 100%;
+padding: 14px 158.5px;
+align-items: center;
+  border-radius: 3px;
+background: var(--color-3, #44C697);
+margin-bottom: 30px;
+}
+
 /** ---keyfraims--- */
 /*!------------------- https://animista.net/-------------------------------- */
 
@@ -465,3 +527,4 @@ text-transform: capitalize;
     opacity: 0;
   }
 }
+
