@@ -64,10 +64,39 @@ body {
 }
 
 .header__menu-link {
+  position: relative;
   color: #fff;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   line-height: 1.25;
+  opacity: 0.5;
+
+}
+/* .header__menu-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #326cff 0%, #26fff2 100%);
+  border-radius: 50px;
+} */
+.header__menu-link.active::after,
+.header__menu-link:is(:hover, :focus)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #326cff 0%, #26fff2 100%);
+  border-radius: 50px;
+  animation: tracking-out-expand-fwd-bottom 0.8s linear 500ms infinite reverse ;
+}
+
+
+.header__menu-link:is(:hover, :focus)::after {
   opacity: 0.5;
 }
 
@@ -86,6 +115,12 @@ body {
 
 .header__icons {
   gap: 75px;
+}
+
+.header__item-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
 
 /** section hero */
@@ -413,6 +448,7 @@ line-height: 20px;
 text-transform: capitalize;
 }
 
+
 /* Forms */
 .form__title{
   color: var(--color-4, #1E2E36);
@@ -473,3 +509,22 @@ align-items: center;
 background: var(--color-3, #44C697);
 margin-bottom: 30px;
 }
+
+/** ---keyfraims--- */
+/*!------------------- https://animista.net/-------------------------------- */
+
+@keyframes tracking-out-expand-fwd-bottom {
+  0% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    transform: translateZ(300px) translateY(50px);
+    opacity: 0;
+  }
+}
+
