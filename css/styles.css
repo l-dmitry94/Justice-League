@@ -92,7 +92,9 @@ body {
   height: 2px;
   background: linear-gradient(to right, #326cff 0%, #26fff2 100%);
   border-radius: 50px;
+  animation: tracking-out-expand-fwd-bottom 0.8s linear 500ms infinite reverse ;
 }
+
 
 .header__menu-link:is(:hover, :focus)::after {
   opacity: 0.5;
@@ -444,4 +446,22 @@ font-style: normal;
 font-weight: 700;
 line-height: 20px;
 text-transform: capitalize;
+}
+
+/** ---keyfraims--- */
+/*!------------------- https://animista.net/-------------------------------- */
+
+@keyframes tracking-out-expand-fwd-bottom {
+  0% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    transform: translateZ(300px) translateY(50px);
+    opacity: 0;
+  }
 }
