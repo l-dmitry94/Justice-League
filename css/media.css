@@ -1,15 +1,27 @@
+
 .container {
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+
 }
+.header__nav, .header__icons {
+  display: none;
+}
+
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  .menu.header__nav {
+  display: block;
+}
+.menu-burger-btn {
+  display: none;
+}
 }
 
 @media screen and (min-width: 1600px) {
@@ -18,4 +30,7 @@
     padding-left: 80px;
     padding-right: 80px;
   }
+ .header__icons {
+  display: flex;
+}
 }

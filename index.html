@@ -31,8 +31,14 @@
         <a href="./index.html" class="header__logo flex"
           ><span class="header__logo-letter flex">M</span>box</a
         >
-        <nav class="header__nav">
-          <ul class="header__menu flex">
+        <button type="button" class="menu-burger-btn">
+          <svg class="menu-icon" width="40" height="40">
+            <use class="icon-burger " href="./img/icons.svg#icon-burger"></use>
+            <use class="icon-close" href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="header__nav menu menu-burger">
+          <ul class="header__menu flex" id="menu">
             <li class="header__menu-list">
               <a href="#" class="header__menu-link active">Home</a>
             </li>
@@ -40,7 +46,7 @@
               <a href="#" class="header__menu-link">TV Shows</a>
             </li>
             <li class="header__menu-list">
-              <a href="#" class="header__menu-link">Movies</a>
+              <a href="#movies" class="header__menu-link">Movies</a>
             </li>
             <li class="header__menu-list">
               <a href="#" class="header__menu-link">Series</a>
@@ -104,7 +110,7 @@
               </li>
             </ul>
           </div>
-          <img src="./img/hero-banner.jpg" alt="hero DC" width="955" />
+          <!-- <img src="./img/hero-banner.jpg" alt="hero DC" width="955" /> -->
         </div>
       </section>
       <section class="shows">
@@ -174,7 +180,7 @@
           </ul>
         </div>
       </section>
-      <section class="shows-section-secont">
+      <section class="shows-section-secont" id="movies">
         <div class="container">
           <h2 class="shows-title">Trending Movies &#62;</h2>
           <ul class="flex shows-list shows-list-padding">
@@ -359,7 +365,7 @@
       </section>
 
       <section>
-        <div class="gradient__background">
+        <!-- <div class="gradient__background">
           <img src="./img/bbb.jpg" alt="Big Buck Bunny" />
           <img
             src="./img/2021 2.jpg"
@@ -369,7 +375,7 @@
           <div class="text-container">
             <p class="gradient__background__icon__text">Coming Soon...</p>
           </div>
-        </div>
+        </div> -->
 
         <div class="container__form">
           <h2 class="form__title">Замовте консультацію</h2>
@@ -431,5 +437,6 @@
         <li>Corporate Informations</li>
       </ul>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
